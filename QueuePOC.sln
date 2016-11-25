@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5C54B807-06CA-451D-BF0C-716EE7C7D390}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2CD85E62-23A9-4337-8F73-1EB279920879}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "QueuePOC", "src\QueuePOC\QueuePOC.xproj", "{48042FCB-4E91-43BF-8EBF-20335D94A08B}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "VMBCQueue", "src\VMBCQueue\VMBCQueue.xproj", "{A3CBC761-93DD-41C8-9DDF-2BB7A2C4A4DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueAzureNet4", "QueueAzureNet45\QueueAzureNet4.csproj", "{CF510FDB-0E2E-4EF9-BAED-92AA976A12EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueuePocUnitTests", "QueuePocUnitTests\QueuePocUnitTests.csproj", "{98175709-CFC9-4C4A-819F-7A4F0B9B6196}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A42E0731-30DC-40EC-AB1C-8CC93C85AB45}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "QueuePocUnitTests", "test\QueuePocUnitTests\QueuePocUnitTests.xproj", "{6DF80CB9-12F3-4F61-890E-F18AF5A04FD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48042FCB-4E91-43BF-8EBF-20335D94A08B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48042FCB-4E91-43BF-8EBF-20335D94A08B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48042FCB-4E91-43BF-8EBF-20335D94A08B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48042FCB-4E91-43BF-8EBF-20335D94A08B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3CBC761-93DD-41C8-9DDF-2BB7A2C4A4DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3CBC761-93DD-41C8-9DDF-2BB7A2C4A4DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3CBC761-93DD-41C8-9DDF-2BB7A2C4A4DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3CBC761-93DD-41C8-9DDF-2BB7A2C4A4DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF510FDB-0E2E-4EF9-BAED-92AA976A12EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF510FDB-0E2E-4EF9-BAED-92AA976A12EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF510FDB-0E2E-4EF9-BAED-92AA976A12EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF510FDB-0E2E-4EF9-BAED-92AA976A12EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98175709-CFC9-4C4A-819F-7A4F0B9B6196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98175709-CFC9-4C4A-819F-7A4F0B9B6196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98175709-CFC9-4C4A-819F-7A4F0B9B6196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98175709-CFC9-4C4A-819F-7A4F0B9B6196}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DF80CB9-12F3-4F61-890E-F18AF5A04FD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF80CB9-12F3-4F61-890E-F18AF5A04FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF80CB9-12F3-4F61-890E-F18AF5A04FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF80CB9-12F3-4F61-890E-F18AF5A04FD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{48042FCB-4E91-43BF-8EBF-20335D94A08B} = {5C54B807-06CA-451D-BF0C-716EE7C7D390}
+		{A3CBC761-93DD-41C8-9DDF-2BB7A2C4A4DA} = {5C54B807-06CA-451D-BF0C-716EE7C7D390}
+		{6DF80CB9-12F3-4F61-890E-F18AF5A04FD1} = {A42E0731-30DC-40EC-AB1C-8CC93C85AB45}
+	EndGlobalSection
+EndGlobal
